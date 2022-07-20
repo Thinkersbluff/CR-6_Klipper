@@ -40,7 +40,7 @@ The Klipper package is comprised of 3 main tools:
 * Fluidd/Mainsail/KlipperScreen: The Klipper display and User Interface. These all 3 do more or less the same (you only need one of them but can run all 3 if wanted). They are the user interface where we put/upload our gcode files, do all calibrations, view a bed mesh and so on.
 
 ## Where to Download Klipper:
-Download the FluidPI or Mainsail image of the Klipper package from the FluiddPI or Mainsail GitHub repo:
+Download the FluiddPI or Mainsail image of the Klipper package from the FluiddPI or Mainsail GitHub repo:
 * https://github.com/cadriel/FluiddPI/releases/
 * https://github.com/mainsail-crew/mainsailOS/releases/
 
@@ -52,7 +52,7 @@ Once you have Klipper installed and configured on the Pi, you must also "make" a
 
 ## How to Install the Fluidd or Mainsail Klipper package onto the Pi:
 
-You can burn the FLuidd or Mainsail Klipper image to an SDcard usng the Raspberry Pi Imager application, as described here:
+You can burn the Fluidd or Mainsail Klipper image to an SDcard usng the Raspberry Pi Imager application, as described here:
 * https://www.raspberrypi.org/documentation/installation/installing-images/
 
 In the Raspberry pi Imager click **Chose OS** - **Use Custom** and select the just downloaded image. The rest of the install procedure is the same as on the raspberry page.

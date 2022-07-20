@@ -20,9 +20,9 @@ With this configuration, there is no need for OctoPi - Fluidd is much more respo
 
 The resources in this repo have been tested on a CR6-SE printer with a BTT SKR CR6 board. The 4.5.2, 4.5.3 and ERA boards have been reported to work correctly with these resources.
 
-Bear in mind that the CR-6 screen will not work (yet) with Klipper. 
-
 The Fluidd interface is web-based, so it can be accessed and operated from any PC or mobile device, using a standard web browser. 
+
+Bear in mind that the CR-6 DWIN Touchscreen will not work (yet) with Klipper. 
 
 As an alternative to the CR-6 screen, KlipperScreen can be used. KlipperScreen runs on a series of Raspberry pi touch screens or on an old phone. Please check out [the KlipperScreen GitHub](https://github.com/jordanruthe/KlipperScreen) for detailed info.
 

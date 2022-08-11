@@ -43,6 +43,10 @@ If you intend to install Klipper on a different host, you will need to research 
 
 Once you have Klipper installed and configured on the Pi, you must also "make" a binary file to flash to your printer's motherboard(s*) (*Klipper can support connecting multiple motherboards to the same Pi and the same printer)  The pi and Klipper will control the printer, via serial communications over the USB cable, with the bin file on the motherboard.
 
+[The Firmware folder of this repository](https://github.com/Thinkersbluff/CR-6_Klipper/tree/main/firmware) includes pre-compiled versions of that Klipper firmware file, for CR6 printers.
+*  Download and flash klipper.BTTCR6.bin, if you have a BTT SKR CR6 v1.0 motherboard. (Rename the file "firmware.bin" before flashing it.)
+*  Download and flash klipper.stockCreality.bin, if you have a stock Creality motherboard. (Remember to rename it, if you try to flash it more than once)
+
 ## How to Install the Fluidd or Mainsail Klipper package onto the Pi:
 
 You can burn the FLuidd or Mainsail Klipper image to an SDcard usng the Raspberry Pi Imager application, as described here:
